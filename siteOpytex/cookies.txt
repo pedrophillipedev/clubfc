@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-opytex.com.br	TRUE	/	FALSE	1999999999	csrftoken	5x06aSvPouQvG9uB9G4KrBlvi9lalJrzVezWuN7DuJcetQzGGLP0dpf46VMlGx93
-
