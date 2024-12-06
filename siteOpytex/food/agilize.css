@@ -1,0 +1,218 @@
+section.agilize {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+section.agilize .row {
+    align-items: center;
+}
+
+.coluna___mockup {
+    position: relative;
+}
+
+.coluna___mockup:after {
+    content: '';
+    width: 50vw;
+    height: 70%;
+    display: block;
+    border-radius: 0 20px 20px 0;
+    background:url(../img/bg-mockup.webp) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+section.agilize .mockup {
+    border:10px #b9b9b9 solid;
+    background: #dbdbdb;
+    border-radius: 20px;
+    height: 700px;
+    width: 320px;
+    box-shadow: 0 0 23px #00000033;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+section.agilize .mockup video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+section.agilize .mockup__header {
+    background: #fff;
+    padding-top: 0px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+section.agilize .mockup__dados {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.agilize .mockup__dados span {
+    color:#fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section.agilize .mockup__camera {
+    display: block;
+    width: 40%;
+    height: 20px;
+    position: absolute;
+    background: #b9b9b9;
+    top: 0;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-radius: 0 0 10px 10px;
+}
+
+section.agilize .mockup__camera:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    right: 10%;
+    top: 2px;
+    position: absolute;
+}
+
+section.agilize .mockup__camera::after {
+    content: '';
+    width: 40%;
+    height: 7px;
+    background: #fff;
+    display: block;
+    border-radius: 40px;
+    left: 50%;
+    top: 3px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+section.agilize .mockup__imagem {
+    width: 55px;
+    height: 55px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+}
+
+section.agilize .muckup__content {
+    display: flex;
+    flex:1;
+    min-width: 100%;
+    position: relative;
+    min-width: calc(100% + 80px);
+    left: -40px;
+}
+
+section.agilize .mockup__send {
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 100px);
+    left: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+section.agilize .mockup__input {
+    flex: 1;
+    background: #fff;
+    height: 50px;
+    border-radius: 30px;
+}
+
+section.agilize .mockup__button {
+    background: #007401;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 2px;
+}
+
+section.agilize .mockup__mensagens {
+    width: calc(100% + 40px);
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+section.agilize .mockup__mensagens p {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    box-shadow: 0 2px 2px #00000036;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section.agilize .mockup__mensagem {
+    display: flex;
+    min-width: 100%;
+}
+
+section.agilize .mockup__mensagens .mockup__mensagem:nth-child(odd) {
+    margin-left: -40px;
+    flex-direction: row-reverse;
+}
+
+section.agilize .mockup__mensagens .mockup__mensagem:nth-child(odd) p {
+    background: #e7ffdb;
+}
+
+
+section.agilize .coluna__content {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+section.agilize .coluna__content h2 {
+    text-transform: uppercase;
+}
+
+section.agilize .coluna__content p {
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section.agilize .coluna__content a {
+    margin: auto;
+}
+
+
+@media (max-width:768px) {
+    section.agilize {padding-bottom: 60px;}
+    section.agilize .coluna__content {padding-left: 0; margin-bottom: 30px; order:1;}
+    section.agilize .coluna___mockup {order:2;}
+    section.agilize .mockup {width: 238px; height: 520px; margin-top: 20px;}
+    .coluna___mockup:after {width: 100vw;}
+
+    section.agilize .mockup {
+        margin-left: auto;
+    }
+}

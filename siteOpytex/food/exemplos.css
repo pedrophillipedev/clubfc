@@ -1,0 +1,84 @@
+section.exemplos {
+    padding: 100px 0;
+}
+
+section.exemplos .title__home {
+    margin-bottom: 60px;
+}
+
+.exemplos__item {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    color:#fff;
+    padding: 15px;
+    padding-top: 60px;
+    min-height: 105px;
+    transition: all .2s;
+    box-shadow: 0 0 10px #00000021;
+}
+
+section.exemplos  .splide__track {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.exemplos__item:nth-child(even) .icone {
+    background: var(--verde);
+}
+
+.exemplos__item .icone {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--roxo);
+    box-shadow: 0 0 10px #0000001f;
+    position: absolute;
+    left:50%;
+    top: -42px;
+    transform: translateX(-50%);
+}
+
+.exemplos__item h4 {
+    font-size: 14px;
+    color: var(--cinza);
+    font-weight: bold;
+}
+
+.exemplos__item a {
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+section.exemplos .splide__arrow--prev {
+    left:-50px
+}
+
+section.exemplos .splide__arrow--next {
+    right:-50px
+}
+
+section.exemplos .splide__pagination {
+    bottom: -40px;
+}
+
+section.exemplos .splide__pagination__page {
+    background:#b2b2b2;
+}
+
+section.exemplos .splide__pagination__page.is-active {
+    background: var(--rosa);
+    opacity: 1;
+}
+
+
+@media (max-width:768px) {
+    section.exemplos {padding: 40px 0;}
+    .exemplos__item a {padding: 10px 20px;}
+}
