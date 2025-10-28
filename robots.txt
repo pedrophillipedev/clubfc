@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Update domain para produção
+Sitemap: https://clubfc.com.br/sitemap.xml
